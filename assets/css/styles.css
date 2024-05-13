@@ -12,42 +12,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/*Heading sizes*/
-h1 {
+.grid-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
 }
 
-h2 {
+.grid-container img:nth-child(1) {
+  grid-column: span 3;
+  grid-row: span 2;
 }
 
-h3 {
+.grid-container img {
+  width: 100%;
+  height: 100%;
 }
-
-h4 {
-}
-
-h5 {
-}
-
-h6 {
-}
-
-p {
-}
-
-/*Navigation*/
-
-/*Section [Hero]*/
-
-/*Section [name]*/
-
-/*Section [name]*/
-
-/*Section [name]*/
-
-/*Section [name]*/
-
-/*Section [name]*/
-
-/*Footer*/
-
-/*Responsive*/
