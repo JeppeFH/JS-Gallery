@@ -33,6 +33,7 @@ body {
   object-fit: cover;
 }
 
-.smallImg:hover {
+.smallImg:hover,
+.smallImg.active {
   border: 3px solid red;
 }
